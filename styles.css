@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Lato", sans-serif;
 }
 
 header {
@@ -15,16 +16,17 @@ header {
   backdrop-filter: blur(10px);
   z-index: 100;
 }
+
 nav .logo {
-  padding: 14px 20px;
+  padding: 10px 20px;
   float: left;
-  font-size: 24px;
+
 }
 nav ul {
   list-style: none;
   float: right;
   margin: 0;
-  padding: 0;
+  padding-right: 50px;
   display: flex;
 }
 nav ul li {
@@ -33,7 +35,7 @@ nav ul li {
 nav ul li a {
   line-height: 55px;
   color: #f28705;
-  padding: 18px 30px;
+  padding: 18px 25px;
   text-decoration: none;
 }
 nav ul li a:focus {
@@ -49,4 +51,48 @@ nav ul li a:hover {
   background: #f28705;
   color: #fff;
   transition: 500ms;
+}
+
+.header {
+  background-image: url("./sources/imagen-fondo.jpg");
+  margin: 0;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.header:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(37, 34, 34, 0.3);
+}
+.tittle-box {
+  position: absolute;
+  float: left;
+  left: 30%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.tittle h1 {
+  margin: 0;
+  color: #fff;
+  font-weight: 400;
+  font-size: 75px;
+}
+
+.sub-tittle {
+  width: 750px;
+}
+.sub-tittle p {
+  margin: 0;
+  color: #fff;
+  font-size: 23px;
+  font-weight: 400;
 }
