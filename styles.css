@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 55px;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  background: rgba(42, 44, 46, 0.5);
+  backdrop-filter: blur(10px);
+  z-index: 100;
+}
+nav .logo {
+  padding: 14px 20px;
+  float: left;
+  font-size: 24px;
+}
+nav ul {
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  line-height: 55px;
+  color: #f28705;
+  padding: 18px 30px;
+  text-decoration: none;
+}
+nav ul li a:focus {
+  outline: none;
+}
+nav ul li a.active {
+  background: #f28705;
+  color: #fff;
+}
+
+nav ul li a:hover {
+  outline: none;
+  background: #f28705;
+  color: #fff;
+  transition: 500ms;
+}
