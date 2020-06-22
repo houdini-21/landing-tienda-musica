@@ -1,5 +1,5 @@
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
@@ -15,7 +15,7 @@ header {
   height: 55px;
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
-  background: rgba(42, 44, 46, 0.5);
+  background: rgba(42, 44, 46, 0.7);
   backdrop-filter: blur(10px);
   z-index: 100;
 }
@@ -52,7 +52,7 @@ nav ul li a:hover {
   outline: none;
   background: #f28705;
   color: #fff;
-  transition: 500ms;
+  transition: 720ms;
 }
 
 .header {
@@ -117,13 +117,6 @@ nav ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  
-}
-
-.card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .card p {
@@ -133,28 +126,103 @@ nav ul li a:hover {
   text-align: center;
 }
 
-.flex-item {
-  background-color: #f28705;
+.card-styles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 245px;
   height: 245px;
   border-radius: 10px;
   margin: 15px;
-  
 }
 
+.card-styles p {
+  font-size: 40px;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+}
+.blur {
+  width: 245px;
+  height: 245px;
+  border-radius: 10px;
+  background: rgba(32, 33, 36, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.blur:hover {
+  background: rgba(32, 33, 36, 0.4);
+  transition: 1500ms;
+}
+
+.card1 {
+  background-image: url(https://cdn.nrm.com.mx/cdn/beat/2015/imagenes/contenido/daft-punk-the-pyramid.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.card2 {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/72/LaBanda.png);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.card3 {
+  background-image: url(https://d.newsweek.com/en/full/1570476/drake.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.card4 {
+  background-image: url(https://estaticos.sport.es/resources/jpg/2/7/1588325728972.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.card5 {
+  background-image: url(https://cdn-pro.elsalvador.com/wp-content/uploads/2018/09/Musica-bandas.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.card6 {
+  background-image: url(https://www.humonegro.com/wp-content/FOSTER-THE-PEOPLE1-560x368.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.card7 {
+  background-image: url(https://studiosol-a.akamaihd.net/uploadfile/letras/fotos/1/7/c/8/17c8720c6ed5a7fa733fb67dd35f4d67.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.card8 {
+  background-image: url(https://www.esquirelat.com/wp-content/uploads/2018/04/5-cosas-que-no-sab%C3%ADas-de-Little-Jesus-la-banda-que-debes-conocer-1280x720.jpeg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+/***
 #card1 {
-  background-image: linear-gradient(rgba(32, 33, 36, 0.7), rgba(32, 33, 36, 0.7)),
+  background-image: linear-gradient(
+      rgba(32, 33, 36, 0.7),
+      rgba(32, 33, 36, 0.7)
+    ),
     url(https://cdn.nrm.com.mx/cdn/beat/2015/imagenes/contenido/daft-punk-the-pyramid.jpg);
   max-width: 100%;
   background-position: center;
   background-size: cover;
-  position: relative;
-  z-index: 1;
 }
 
 #card2 {
-  background-image: linear-gradient(rgba(32, 33, 36, 0.7), rgba(32, 33, 36, 0.7)),
+  background-image: linear-gradient(
+      rgba(32, 33, 36, 0.7),
+      rgba(32, 33, 36, 0.7)
+    ),
     url(https://upload.wikimedia.org/wikipedia/commons/7/72/LaBanda.png);
   max-width: 100%;
   background-position: center;
@@ -164,7 +232,10 @@ nav ul li a:hover {
 }
 
 #card3 {
-  background-image: linear-gradient(rgba(32, 33, 36, 0.7), rgba(32, 33, 36, 0.7)),
+  background-image: linear-gradient(
+      rgba(32, 33, 36, 0.7),
+      rgba(32, 33, 36, 0.7)
+    ),
     url(https://d.newsweek.com/en/full/1570476/drake.jpg);
   max-width: 100%;
   background-position: center;
@@ -172,8 +243,12 @@ nav ul li a:hover {
   position: relative;
   z-index: 1;
 }
+
 #card4 {
-  background-image: linear-gradient(rgba(32, 33, 36, 0.7), rgba(32, 33, 36, 0.7)),
+  background-image: linear-gradient(
+      rgba(32, 33, 36, 0.7),
+      rgba(32, 33, 36, 0.7)
+    ),
     url(https://estaticos.sport.es/resources/jpg/2/7/1588325728972.jpg);
   max-width: 100%;
   background-position: center;
@@ -181,8 +256,12 @@ nav ul li a:hover {
   position: relative;
   z-index: 1;
 }
+
 #card5 {
-  background-image: linear-gradient(rgba(32, 33, 36, 0.7), rgba(32, 33, 36, 0.7)),
+  background-image: linear-gradient(
+      rgba(32, 33, 36, 0.7),
+      rgba(32, 33, 36, 0.7)
+    ),
     url(https://cdn-pro.elsalvador.com/wp-content/uploads/2018/09/Musica-bandas.jpg);
   max-width: 100%;
   background-position: center;
@@ -192,7 +271,10 @@ nav ul li a:hover {
 }
 
 #card6 {
-  background-image: linear-gradient(rgba(32, 33, 36, 0.7), rgba(32, 33, 36, 0.7)),
+  background-image: linear-gradient(
+      rgba(32, 33, 36, 0.7),
+      rgba(32, 33, 36, 0.7)
+    ),
     url(https://www.humonegro.com/wp-content/FOSTER-THE-PEOPLE1-560x368.jpg);
   max-width: 100%;
   background-position: center;
@@ -202,7 +284,10 @@ nav ul li a:hover {
 }
 
 #card7 {
-  background-image: linear-gradient(rgba(32, 33, 36, 0.7), rgba(32, 33, 36, 0.7)),
+  background-image: linear-gradient(
+      rgba(32, 33, 36, 0.7),
+      rgba(32, 33, 36, 0.7)
+    ),
     url(https://studiosol-a.akamaihd.net/uploadfile/letras/fotos/1/7/c/8/17c8720c6ed5a7fa733fb67dd35f4d67.jpg);
   max-width: 100%;
   background-position: center;
@@ -212,7 +297,10 @@ nav ul li a:hover {
 }
 
 #card8 {
-  background-image: linear-gradient(rgba(32, 33, 36, 0.7), rgba(32, 33, 36, 0.7)),
+  background-image: linear-gradient(
+      rgba(32, 33, 36, 0.7),
+      rgba(32, 33, 36, 0.7)
+    ),
     url(https://www.esquirelat.com/wp-content/uploads/2018/04/5-cosas-que-no-sab%C3%ADas-de-Little-Jesus-la-banda-que-debes-conocer-1280x720.jpeg);
   max-width: 100%;
   background-position: center;
@@ -220,3 +308,4 @@ nav ul li a:hover {
   position: relative;
   z-index: 1;
 }
+**/
