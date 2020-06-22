@@ -1,3 +1,6 @@
+html {
+	scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;
@@ -20,7 +23,6 @@ header {
 nav .logo {
   padding: 10px 20px;
   float: left;
-
 }
 nav ul {
   list-style: none;
@@ -53,10 +55,8 @@ nav ul li a:hover {
   transition: 500ms;
 }
 
-
 .header {
   content: "";
-  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
@@ -88,18 +88,135 @@ nav ul li a:hover {
   font-size: 23px;
   font-weight: 400;
 }
-video {
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
 
-  position: fixed;    
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%); 
-      
+.banner-video {
+  position: relative;
+  z-index: -101;
+}
+
+.header video {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
   z-index: -100;
-    
+  width: 100%;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 40px;
+  color: #f28705;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card p {
+  font-size: 40px;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+}
+
+.flex-item {
+  background-color: #f28705;
+  width: 245px;
+  height: 245px;
+  border-radius: 10px;
+  margin: 15px;
+  
+}
+
+
+#card1 {
+  background-image: linear-gradient(rgba(32, 33, 36, 0.7), rgba(32, 33, 36, 0.7)),
+    url(https://cdn.nrm.com.mx/cdn/beat/2015/imagenes/contenido/daft-punk-the-pyramid.jpg);
+  max-width: 100%;
+  background-position: center;
   background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+#card2 {
+  background-image: linear-gradient(rgba(32, 33, 36, 0.7), rgba(32, 33, 36, 0.7)),
+    url(https://upload.wikimedia.org/wikipedia/commons/7/72/LaBanda.png);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+#card3 {
+  background-image: linear-gradient(rgba(32, 33, 36, 0.7), rgba(32, 33, 36, 0.7)),
+    url(https://d.newsweek.com/en/full/1570476/drake.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+#card4 {
+  background-image: linear-gradient(rgba(32, 33, 36, 0.7), rgba(32, 33, 36, 0.7)),
+    url(https://estaticos.sport.es/resources/jpg/2/7/1588325728972.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+#card5 {
+  background-image: linear-gradient(rgba(32, 33, 36, 0.7), rgba(32, 33, 36, 0.7)),
+    url(https://cdn-pro.elsalvador.com/wp-content/uploads/2018/09/Musica-bandas.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+#card6 {
+  background-image: linear-gradient(rgba(32, 33, 36, 0.7), rgba(32, 33, 36, 0.7)),
+    url(https://www.humonegro.com/wp-content/FOSTER-THE-PEOPLE1-560x368.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+#card7 {
+  background-image: linear-gradient(rgba(32, 33, 36, 0.7), rgba(32, 33, 36, 0.7)),
+    url(https://studiosol-a.akamaihd.net/uploadfile/letras/fotos/1/7/c/8/17c8720c6ed5a7fa733fb67dd35f4d67.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+#card8 {
+  background-image: linear-gradient(rgba(32, 33, 36, 0.7), rgba(32, 33, 36, 0.7)),
+    url(https://www.esquirelat.com/wp-content/uploads/2018/04/5-cosas-que-no-sab%C3%ADas-de-Little-Jesus-la-banda-que-debes-conocer-1280x720.jpeg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
 }
