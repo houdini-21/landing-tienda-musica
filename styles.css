@@ -151,6 +151,14 @@ video.video-screen {
   font-size: 40px;
   color: #f28705;
 }
+
+.subtittle-contactanos {
+  text-align: center;
+  margin: 10px;
+  font-weight: 400;
+  font-size: 22px;
+  color: #252525;
+}
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -471,3 +479,68 @@ video.video-screen {
   z-index: 1;
 }
 **/
+
+.contactanos-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dibujo-box {
+  margin: 40px;
+}
+object.dibujo {
+  height: 350px;
+}
+.formulario-fields {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 580px;
+  margin: 40px;
+}
+
+.formulario {
+  font-size: 16px;
+  border-style: solid;
+  padding: 10px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #f28705;
+  color: #252525;
+  text-align: left;
+  margin: 10px;
+}
+.formulario:focus {
+  outline: none;
+}
+#nombre {
+  width: 180px;
+}
+
+#email {
+  width: 300px;
+}
+
+#producto {
+  width: 524px;
+}
+
+#descripcion {
+  width: 524px;
+  height: 150px;
+}
+
+.formulario-enviar {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #f28705;
+  width: 560px;
+  border: none;
+  height: 40px;
+  border-radius: 10px;
+  margin: 15px;
+}
