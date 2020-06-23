@@ -82,7 +82,7 @@
     <link href="./sources/fontawesome/css/fontawesome.css" rel="stylesheet" />
     <link href="./sources/fontawesome/css/light.css" rel="stylesheet" />
     <link href="./sources/fontawesome/css/regular.css" rel="stylesheet" />
-    <script src="scripts.js"></script>
+
     <title>On the Rocks</title>
   </head>
   <body>
@@ -92,14 +92,30 @@
           <i class="fal fa-meteor" id="logo"></i>
         </div>
         <ul>
-          <li><a href="#inicio" id="navbutton1" onclick="changeclass1()">Inicio</a></li>
-          <li><a href="#categorias" id="navbutton2" onclick="changeclass2()">Categorias</a></li>
-          <li><a href="#masvendidos" id="navbutton3" onclick="changeclass3()">Mas Vendidos</a></li>
-          <li><a href="#contactanos" id="navbutton4" onclick="changeclass4()">Contactanos</a></li>
+          <li>
+            <a href="#inicio" id="navbutton1" onclick="changeclass1()"
+              >Inicio</a
+            >
+          </li>
+          <li>
+            <a href="#categorias" id="navbutton2" onclick="changeclass2()"
+              >Categorias</a
+            >
+          </li>
+          <li>
+            <a href="#masvendidos" id="navbutton3" onclick="changeclass3()"
+              >Mas Vendidos</a
+            >
+          </li>
+          <li>
+            <a href="#contactanos" id="navbutton4" onclick="changeclass4()"
+              >Contactanos</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
-
+   
     <main>
       <section class="header" id="inicio">
         <div class="banner-video">
@@ -175,7 +191,9 @@
             <article class="card-ventas">
               <div class="portada-album imagen-album1">
                 <div class="play-love-blur">
-                  <i class="fal fa-play" id="playbutton"></i>
+                  <div id="play1">
+                    <i class="fal fa-play" id="playbutton1"></i>
+                  </div>
                 </div>
               </div>
               <div class="card-album-tittle">
@@ -187,7 +205,9 @@
             <article class="card-ventas">
               <div class="portada-album imagen-album2">
                 <div class="play-love-blur">
-                  <i class="fal fa-play" id="playbutton"></i>
+                  <div id="play2">
+                    <i class="fal fa-play btn-play" id="playbutton2"></i>
+                  </div>
                 </div>
               </div>
               <div class="card-album-tittle">
@@ -198,7 +218,9 @@
             <article class="card-ventas">
               <div class="portada-album imagen-album3">
                 <div class="play-love-blur">
-                  <i class="fal fa-play" id="playbutton"></i>
+                  <div id="play3">
+                    <i class="fal fa-play btn-play" id="playbutton3"></i>
+                  </div>
                 </div>
               </div>
               <div class="card-album-tittle">
@@ -209,7 +231,9 @@
             <article class="card-ventas">
               <div class="portada-album imagen-album4">
                 <div class="play-love-blur">
-                  <i class="fal fa-play" id="playbutton"></i>
+                  <div id="play4">
+                    <i class="fal fa-play btn-play" id="playbutton4"></i>
+                  </div>
                 </div>
               </div>
               <div class="card-album-tittle">
@@ -220,7 +244,9 @@
             <article class="card-ventas">
               <div class="portada-album imagen-album5">
                 <div class="play-love-blur">
-                  <i class="fal fa-play" id="playbutton"></i>
+                  <div id="play5">
+                    <i class="fal fa-play btn-play" id="playbutton5"></i>
+                  </div>
                 </div>
               </div>
               <div class="card-album-tittle">
@@ -231,7 +257,9 @@
             <article class="card-ventas">
               <div class="portada-album imagen-album6">
                 <div class="play-love-blur">
-                  <i class="fal fa-play" id="playbutton"></i>
+                  <div id="play6">
+                    <i class="fal fa-play btn-play" id="playbutton6"></i>
+                  </div>
                 </div>
               </div>
               <div class="card-album-tittle">
@@ -242,7 +270,9 @@
             <article class="card-ventas">
               <div class="portada-album imagen-album7">
                 <div class="play-love-blur">
-                  <i class="fal fa-play" id="playbutton"></i>
+                  <div id="play7">
+                    <i class="fal fa-play btn-play" id="playbutton7"></i>
+                  </div>
                 </div>
               </div>
               <div class="card-album-tittle">
@@ -253,7 +283,9 @@
             <article class="card-ventas">
               <div class="portada-album imagen-album8">
                 <div class="play-love-blur">
-                  <i class="fal fa-play" id="playbutton"></i>
+                  <div id="play8">
+                    <i class="fal fa-play btn-play" id="playbutton8"></i>
+                  </div>
                 </div>
               </div>
               <div class="card-album-tittle">
@@ -264,7 +296,9 @@
             <article class="card-ventas">
               <div class="portada-album imagen-album9">
                 <div class="play-love-blur">
-                  <i class="fal fa-play" id="playbutton"></i>
+                  <div id="play9">
+                    <i class="fal fa-play btn-play" id="playbutton9"></i>
+                  </div>
                 </div>
               </div>
               <div class="card-album-tittle">
@@ -275,7 +309,9 @@
             <article class="card-ventas">
               <div class="portada-album imagen-album10">
                 <div class="play-love-blur">
-                  <i class="fal fa-play" id="playbutton"></i>
+                  <div id="play10">
+                    <i class="fal fa-play btn-play" id="playbutton10"></i>
+                  </div>
                 </div>
               </div>
               <div class="card-album-tittle">
@@ -290,17 +326,44 @@
       <section id="contactanos">
         <div class="container">
           <h1>Contactanos</h1>
-          <p class="subtittle-contactanos">Si no encuentras lo que buscas contactanos, nosotros lo traemos para ti.</p>
+          <p class="subtittle-contactanos">
+            Si no encuentras lo que buscas contactanos, nosotros lo traemos para
+            ti.
+          </p>
           <div class="contactanos-box">
             <div class="dibujo-box">
-              <object class="dibujo" type="image/svg+xml" data="./sources/formulario2.svg" ></object>
+              <object
+                class="dibujo"
+                type="image/svg+xml"
+                data="./sources/formulario2.svg"
+              ></object>
             </div>
             <div class="formulario-box">
-               <div class="formulario-fields">
-                <input type="text" class="formulario" placeholder="Nombre" id="nombre"/>
-                <input type="email" class="formulario" placeholder="Correo Electronico" id="email"/>
-                <input type="text" class="formulario" placeholder="Nombre producto" id="producto"/>
-                <input type="text" class="formulario" placeholder="Descripcion producto" id="descripcion"/>
+              <div class="formulario-fields">
+                <input
+                  type="text"
+                  class="formulario"
+                  placeholder="Nombre"
+                  id="nombre"
+                />
+                <input
+                  type="email"
+                  class="formulario"
+                  placeholder="Correo Electronico"
+                  id="email"
+                />
+                <input
+                  type="text"
+                  class="formulario"
+                  placeholder="Nombre producto"
+                  id="producto"
+                />
+                <input
+                  type="text"
+                  class="formulario"
+                  placeholder="Descripcion producto"
+                  id="descripcion"
+                />
                 <button type="button" class="formulario-enviar">Enviar</button>
               </div>
             </div>
@@ -308,6 +371,7 @@
         </div>
       </section>
     </main>
+		<script src="scripts.js"></script>
   </body>
 </html>
 <!--- 

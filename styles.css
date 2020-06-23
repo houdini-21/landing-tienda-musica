@@ -2,7 +2,7 @@
 html {
   scroll-behavior: smooth;
   overflow-y: scroll;
-  scroll-snap-type: y mandatory;
+ /** scroll-snap-type: y mandatory;**/
 }
 
 
@@ -20,6 +20,7 @@ body {
 #contactanos {
   scroll-snap-align: center;
 }
+
 header {
   position: fixed;
   top: 0;
@@ -32,6 +33,8 @@ header {
   backdrop-filter: blur(10px);
   z-index: 100;
 }
+
+
 
 .navbar .logo {
   padding: 6px 20px;
@@ -349,11 +352,20 @@ video.video-screen {
   transition: 500ms;
 }
 
-.play-love-blur:hover #playbutton {
+.play-love-blur:hover #playbutton1,
+.play-love-blur:hover #playbutton2,
+.play-love-blur:hover #playbutton3,
+.play-love-blur:hover #playbutton4,
+.play-love-blur:hover #playbutton5,
+.play-love-blur:hover #playbutton6,
+.play-love-blur:hover #playbutton7,
+.play-love-blur:hover #playbutton8,
+.play-love-blur:hover #playbutton9,
+.play-love-blur:hover #playbutton10 {
   display: block;
 }
 
-#playbutton {
+#playbutton1, #playbutton2, #playbutton3, #playbutton4, #playbutton5, #playbutton6, #playbutton7, #playbutton8, #playbutton9, #playbutton10{
   display: none;
   font-size: 60px;
   color: #f28705;
