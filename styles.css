@@ -1,25 +1,16 @@
-
-html {
-  scroll-behavior: smooth;
-  overflow-y: scroll;
- /** scroll-snap-type: y mandatory;**/
-}
-
-
 body {
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
 }
-#categorias {
-  scroll-snap-align: end;
+/**
+html {
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
 }
 
-#masvendidos,
-#inicio,
-#contactanos {
-  scroll-snap-align: center;
-}
+**/
 
 header {
   position: fixed;
@@ -33,8 +24,6 @@ header {
   backdrop-filter: blur(10px);
   z-index: 100;
 }
-
-
 
 .navbar .logo {
   padding: 6px 20px;
@@ -68,12 +57,7 @@ header {
   background: #f28705;
   color: #fff;
 }
-/**
-#categorias:target {
-  background: #f28705;
-  color: #fff;
-}
-**/
+
 nav ul li a:hover {
   outline: none;
   background: #f28705;
@@ -92,20 +76,6 @@ nav ul li a:hover {
   font-size: 50px;
   margin: 0;
 }
-/**
-.banner-subtittle {
-  text-align: center;
-  color: #fff;
-  font-size: 25px;
-}
-
-.banner-categorias {
-  background-image: url(./sources/bannner-categorias.jpg);
-  max-width: 100%;
-  background-position: center;
-  background-size: cover;
-}
-**/
 
 .banner-video {
   display: flex;
@@ -136,9 +106,6 @@ nav ul li a:hover {
   font-size: 23px;
   font-weight: 400;
 }
-
-
-
 
 video.video-screen {
   position: relative;
@@ -324,7 +291,7 @@ video.video-screen {
   max-width: 100%;
   background-position: center;
   background-size: cover;
-  background-image: url(https://i1.wp.com/www.sopitas.com/wp-content/uploads/2019/11/madeon.jpg);
+  background-image: url('https://img.discogs.com/PFU49fd7qUkZRNnp-1dlk0oc94c=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6862428-1464172957-9209.jpeg.jpg');
 }
 .imagen-album9 {
   max-width: 100%;
@@ -365,7 +332,16 @@ video.video-screen {
   display: block;
 }
 
-#playbutton1, #playbutton2, #playbutton3, #playbutton4, #playbutton5, #playbutton6, #playbutton7, #playbutton8, #playbutton9, #playbutton10{
+#playbutton1,
+#playbutton2,
+#playbutton3,
+#playbutton4,
+#playbutton5,
+#playbutton6,
+#playbutton7,
+#playbutton8,
+#playbutton9,
+#playbutton10 {
   display: none;
   font-size: 60px;
   color: #f28705;
@@ -388,109 +364,6 @@ video.video-screen {
   text-align: center;
   font-size: 16px;
 }
-/***
-#card1 {
-  background-image: linear-gradient(
-      rgba(32, 33, 36, 0.7),
-      rgba(32, 33, 36, 0.7)
-    ),
-    url(https://cdn.nrm.com.mx/cdn/beat/2015/imagenes/contenido/daft-punk-the-pyramid.jpg);
-  max-width: 100%;
-  background-position: center;
-  background-size: cover;
-}
-
-#card2 {
-  background-image: linear-gradient(
-      rgba(32, 33, 36, 0.7),
-      rgba(32, 33, 36, 0.7)
-    ),
-    url(https://upload.wikimedia.org/wikipedia/commons/7/72/LaBanda.png);
-  max-width: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  z-index: 1;
-}
-
-#card3 {
-  background-image: linear-gradient(
-      rgba(32, 33, 36, 0.7),
-      rgba(32, 33, 36, 0.7)
-    ),
-    url(https://d.newsweek.com/en/full/1570476/drake.jpg);
-  max-width: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  z-index: 1;
-}
-
-#card4 {
-  background-image: linear-gradient(
-      rgba(32, 33, 36, 0.7),
-      rgba(32, 33, 36, 0.7)
-    ),
-    url(https://estaticos.sport.es/resources/jpg/2/7/1588325728972.jpg);
-  max-width: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  z-index: 1;
-}
-
-#card5 {
-  background-image: linear-gradient(
-      rgba(32, 33, 36, 0.7),
-      rgba(32, 33, 36, 0.7)
-    ),
-    url(https://cdn-pro.elsalvador.com/wp-content/uploads/2018/09/Musica-bandas.jpg);
-  max-width: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  z-index: 1;
-}
-
-#card6 {
-  background-image: linear-gradient(
-      rgba(32, 33, 36, 0.7),
-      rgba(32, 33, 36, 0.7)
-    ),
-    url(https://www.humonegro.com/wp-content/FOSTER-THE-PEOPLE1-560x368.jpg);
-  max-width: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  z-index: 1;
-}
-
-#card7 {
-  background-image: linear-gradient(
-      rgba(32, 33, 36, 0.7),
-      rgba(32, 33, 36, 0.7)
-    ),
-    url(https://studiosol-a.akamaihd.net/uploadfile/letras/fotos/1/7/c/8/17c8720c6ed5a7fa733fb67dd35f4d67.jpg);
-  max-width: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  z-index: 1;
-}
-
-#card8 {
-  background-image: linear-gradient(
-      rgba(32, 33, 36, 0.7),
-      rgba(32, 33, 36, 0.7)
-    ),
-    url(https://www.esquirelat.com/wp-content/uploads/2018/04/5-cosas-que-no-sab%C3%ADas-de-Little-Jesus-la-banda-que-debes-conocer-1280x720.jpeg);
-  max-width: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  z-index: 1;
-}
-**/
 
 .contactanos-box {
   display: flex;
@@ -555,4 +428,26 @@ object.dibujo {
   height: 40px;
   border-radius: 10px;
   margin: 15px;
+}
+
+.divider {
+  height: 10px;
+  width: 100%;
+  background-color: #f28705;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+
+.divider#categorias {
+  margin-top: 0%;
+  margin-bottom: 3%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #f28705;
 }

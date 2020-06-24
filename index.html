@@ -93,29 +93,21 @@
         </div>
         <ul>
           <li>
-            <a href="#inicio" id="navbutton1" onclick="changeclass1()"
-              >Inicio</a
-            >
+            <a href="#inicio" id="navbutton">Inicio</a>
           </li>
           <li>
-            <a href="#categorias" id="navbutton2" onclick="changeclass2()"
-              >Categorias</a
-            >
+            <a href="#categorias" id="navbutton">Categorias</a>
           </li>
           <li>
-            <a href="#masvendidos" id="navbutton3" onclick="changeclass3()"
-              >Mas Vendidos</a
-            >
+            <a href="#masvendidos" id="navbutton">Mas Vendidos</a>
           </li>
           <li>
-            <a href="#contactanos" id="navbutton4" onclick="changeclass4()"
-              >Contactanos</a
-            >
+            <a href="#contactanos" id="navbutton">Contactanos</a>
           </li>
         </ul>
       </nav>
     </header>
-   
+
     <main>
       <section class="header" id="inicio">
         <div class="banner-video">
@@ -136,55 +128,55 @@
         </div>
       </section>
 
-      <section id="categorias">
-        <div class="container">
-          <h1>Categorias</h1>
-          <section class="cards">
-            <article class="card-styles card1">
-              <div class="blur">
-                <p>Electronica</p>
-              </div>
-            </article>
-            <article class="card-styles card2">
-              <div class="blur">
-                <p>Rock Latino</p>
-              </div>
-            </article>
-            <article class="card-styles card3">
-              <div class="blur">
-                <p>Hip-Hop</p>
-              </div>
-            </article>
-            <article class="card-styles card4">
-              <div class="blur">
-                <p>Rap</p>
-              </div>
-            </article>
-            <article class="card-styles card5">
-              <div class="blur">
-                <p>Norteña</p>
-              </div>
-            </article>
-            <article class="card-styles card6">
-              <div class="blur">
-                <p>Pop</p>
-              </div>
-            </article>
-            <article class="card-styles card7">
-              <div class="blur">
-                <p>Rock</p>
-              </div>
-            </article>
-            <article class="card-styles card8">
-              <div class="blur">
-                <p>Indie</p>
-              </div>
-            </article>
-          </section>
-        </div>
+      <div class="divider" id="categorias"></div>
+      <section id="categorias" class="container">
+        <h1>Categorias</h1>
+        <section class="cards">
+          <article class="card-styles card1">
+            <div class="blur">
+              <p>Electronica</p>
+            </div>
+          </article>
+          <article class="card-styles card2">
+            <div class="blur">
+              <p>Rock Latino</p>
+            </div>
+          </article>
+          <article class="card-styles card3">
+            <div class="blur">
+              <p>Hip-Hop</p>
+            </div>
+          </article>
+          <article class="card-styles card4">
+            <div class="blur">
+              <p>Rap</p>
+            </div>
+          </article>
+          <article class="card-styles card5">
+            <div class="blur">
+              <p>Norteña</p>
+            </div>
+          </article>
+          <article class="card-styles card6">
+            <div class="blur">
+              <p>Pop</p>
+            </div>
+          </article>
+          <article class="card-styles card7">
+            <div class="blur">
+              <p>Rock</p>
+            </div>
+          </article>
+          <article class="card-styles card8">
+            <div class="blur">
+              <p>Indie</p>
+            </div>
+          </article>
+        </section>
       </section>
 
-      <section id="masvendidos">
+      <div class="divider" id="masvendidos"></div>
+      <section>
         <div class="container">
           <h1>Mas Vendidos</h1>
           <div class="contenedor-card-ventas">
@@ -289,7 +281,7 @@
                 </div>
               </div>
               <div class="card-album-tittle">
-                <h3 class="album-tittle">Good Faith</h3>
+                <h3 class="album-tittle">Adventure</h3>
                 <p class="album-artist">Madeon</p>
               </div>
             </article>
@@ -323,63 +315,58 @@
         </div>
       </section>
 
-      <section id="contactanos">
-        <div class="container">
-          <h1>Contactanos</h1>
-          <p class="subtittle-contactanos">
-            Si no encuentras lo que buscas contactanos, nosotros lo traemos para
-            ti.
-          </p>
-          <div class="contactanos-box">
-            <div class="dibujo-box">
-              <object
-                class="dibujo"
-                type="image/svg+xml"
-                data="./sources/formulario2.svg"
-              ></object>
-            </div>
-            <div class="formulario-box">
-              <div class="formulario-fields">
-                <input
-                  type="text"
-                  class="formulario"
-                  placeholder="Nombre"
-                  id="nombre"
-                />
-                <input
-                  type="email"
-                  class="formulario"
-                  placeholder="Correo Electronico"
-                  id="email"
-                />
-                <input
-                  type="text"
-                  class="formulario"
-                  placeholder="Nombre producto"
-                  id="producto"
-                />
-                <input
-                  type="text"
-                  class="formulario"
-                  placeholder="Descripcion producto"
-                  id="descripcion"
-                />
-                <button type="button" class="formulario-enviar">Enviar</button>
-              </div>
+      <div class="divider" id="contactanos"></div>
+      <section class="container">
+        <h1>Contactanos</h1>
+        <p class="subtittle-contactanos">
+          Si no encuentras lo que buscas contactanos, nosotros lo traemos para
+          ti.
+        </p>
+        <div class="contactanos-box">
+          <div class="dibujo-box">
+            <object
+              class="dibujo"
+              type="image/svg+xml"
+              data="./sources/formulario2.svg"
+            ></object>
+          </div>
+          <div class="formulario-box">
+            <div class="formulario-fields">
+              <input
+                type="text"
+                class="formulario"
+                placeholder="Nombre"
+                id="nombre"
+              />
+              <input
+                type="email"
+                class="formulario"
+                placeholder="Correo Electronico"
+                id="email"
+              />
+              <input
+                type="text"
+                class="formulario"
+                placeholder="Nombre producto"
+                id="producto"
+              />
+              <input
+                type="text"
+                class="formulario"
+                placeholder="Descripcion producto"
+                id="descripcion"
+              />
+              <button type="button" class="formulario-enviar">Enviar</button>
             </div>
           </div>
         </div>
       </section>
     </main>
-		<script src="scripts.js"></script>
+    <footer >
+      
+    </footer>
+
+    <script src="scripts.js"></script>
+    <script src="music.js"></script>
   </body>
 </html>
-<!--- 
-          <div class="card" id="card1"><p>Electronica</p></div>
-          <div class="card" id="card2"><p>Rock Latino</p></div>
-          <div class="card" id="card3"><p>Hip-Hop</p></div>
-          <div class="card" id="card4"><p>Rap</p></div>
-          <div class="card" id="card5"><p>Nortena</p></div>
-          <div class="card" id="card6"><p>POP</p></div>
-          <div class="card" id="card7"><p>Rock</p></div>
-          <div class="card" id="card8"><p>Indie</p></div> -->
