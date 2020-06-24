@@ -81,7 +81,7 @@
     />
     <link href="./sources/fontawesome/css/fontawesome.css" rel="stylesheet" />
     <link href="./sources/fontawesome/css/light.css" rel="stylesheet" />
-    <link href="./sources/fontawesome/css/regular.css" rel="stylesheet" />
+    <link href="./sources/fontawesome/css/solid.css" rel="stylesheet" />
 
     <title>On the Rocks</title>
   </head>
@@ -93,16 +93,20 @@
         </div>
         <ul>
           <li>
-            <a href="#inicio" id="navbutton">Inicio</a>
+            <a href="#inicio" class="nav" id="inicionav">Inicio</a>
           </li>
           <li>
-            <a href="#categorias" id="navbutton">Categorias</a>
+            <a href="#categorias" class="nav" id="categoriasnav">Categorias</a>
           </li>
           <li>
-            <a href="#masvendidos" id="navbutton">Mas Vendidos</a>
+            <a href="#masvendidos" class="nav" id="masvendidosnav"
+              >Mas Vendidos</a
+            >
           </li>
           <li>
-            <a href="#contactanos" id="navbutton">Contactanos</a>
+            <a href="#contactanos" class="nav" id="contactanosnav"
+              >Contactanos</a
+            >
           </li>
         </ul>
       </nav>
@@ -129,7 +133,7 @@
       </section>
 
       <div class="divider" id="categorias"></div>
-      <section id="categorias" class="container">
+      <section class="container">
         <h1>Categorias</h1>
         <section class="cards">
           <article class="card-styles card1">
@@ -176,142 +180,178 @@
       </section>
 
       <div class="divider" id="masvendidos"></div>
-      <section>
-        <div class="container">
-          <h1>Mas Vendidos</h1>
-          <div class="contenedor-card-ventas">
-            <article class="card-ventas">
-              <div class="portada-album imagen-album1">
-                <div class="play-love-blur">
-                  <div id="play1">
-                    <i class="fal fa-play" id="playbutton1"></i>
-                  </div>
+      <section class="container">
+        <h1>Mas Vendidos</h1>
+        <div class="contenedor-card-ventas">
+          <article class="card-ventas">
+            <div class="portada-album imagen-album1">
+              <div class="play-love-blur">
+                <div id="play1">
+                  <i class="fal fa-play" id="playbutton1"></i>
+                </div>
+                <div id="like">
+                  <i class="fal fa-heart btn-heart" id="heart"></i>
                 </div>
               </div>
-              <div class="card-album-tittle">
-                <h3 class="album-tittle">Jueves</h3>
-                <p class="album-artist">Cuarteto de Nos</p>
-              </div>
-            </article>
+            </div>
+            <div class="card-album-tittle">
+              <h3 class="album-tittle">Jueves</h3>
+              <p class="album-artist">Cuarteto de Nos</p>
+            </div>
+          </article>
 
-            <article class="card-ventas">
-              <div class="portada-album imagen-album2">
-                <div class="play-love-blur">
-                  <div id="play2">
-                    <i class="fal fa-play btn-play" id="playbutton2"></i>
-                  </div>
+          <article class="card-ventas">
+            <div class="portada-album imagen-album2">
+              <div class="play-love-blur">
+                <div id="play2">
+                  <i class="fal fa-play" id="playbutton2"></i>
+                </div>
+                <div id="like">
+                  <i class="fal fa-heart btn-heart" id="heart"></i>
                 </div>
               </div>
-              <div class="card-album-tittle">
-                <h3 class="album-tittle">Apocalipsis Zombie</h3>
-                <p class="album-artist">Cuarteto de Nos</p>
-              </div>
-            </article>
-            <article class="card-ventas">
-              <div class="portada-album imagen-album3">
-                <div class="play-love-blur">
-                  <div id="play3">
-                    <i class="fal fa-play btn-play" id="playbutton3"></i>
-                  </div>
+            </div>
+            <div class="card-album-tittle">
+              <h3 class="album-tittle">Apocalipsis Zombie</h3>
+              <p class="album-artist">Cuarteto de Nos</p>
+            </div>
+          </article>
+
+          <article class="card-ventas">
+            <div class="portada-album imagen-album3">
+              <div class="play-love-blur">
+                <div id="play3">
+                  <i class="fal fa-play" id="playbutton3"></i>
+                </div>
+                <div id="like">
+                  <i class="fal fa-heart btn-heart" id="heart"></i>
                 </div>
               </div>
-              <div class="card-album-tittle">
-                <h3 class="album-tittle">Supermodel</h3>
-                <p class="album-artist">Foster the People</p>
-              </div>
-            </article>
-            <article class="card-ventas">
-              <div class="portada-album imagen-album4">
-                <div class="play-love-blur">
-                  <div id="play4">
-                    <i class="fal fa-play btn-play" id="playbutton4"></i>
-                  </div>
+            </div>
+            <div class="card-album-tittle">
+              <h3 class="album-tittle">Supermodel</h3>
+              <p class="album-artist">Foster the People</p>
+            </div>
+          </article>
+
+          <article class="card-ventas">
+            <div class="portada-album imagen-album4">
+              <div class="play-love-blur">
+                <div id="play4">
+                  <i class="fal fa-play" id="playbutton4"></i>
+                </div>
+                <div id="like">
+                  <i class="fal fa-heart btn-heart" id="heart"></i>
                 </div>
               </div>
-              <div class="card-album-tittle">
-                <h3 class="album-tittle">Beyond the senses</h3>
-                <p class="album-artist">Rezz</p>
-              </div>
-            </article>
-            <article class="card-ventas">
-              <div class="portada-album imagen-album5">
-                <div class="play-love-blur">
-                  <div id="play5">
-                    <i class="fal fa-play btn-play" id="playbutton5"></i>
-                  </div>
+            </div>
+            <div class="card-album-tittle">
+              <h3 class="album-tittle">Beyond the senses</h3>
+              <p class="album-artist">Rezz</p>
+            </div>
+          </article>
+
+          <article class="card-ventas">
+            <div class="portada-album imagen-album5">
+              <div class="play-love-blur">
+                <div id="play5">
+                  <i class="fal fa-play" id="playbutton5"></i>
+                </div>
+                <div id="like">
+                  <i class="fal fa-heart btn-heart" id="heart"></i>
                 </div>
               </div>
-              <div class="card-album-tittle">
-                <h3 class="album-tittle">Ramdom access memories</h3>
-                <p class="album-artist">Daft Punk</p>
-              </div>
-            </article>
-            <article class="card-ventas">
-              <div class="portada-album imagen-album6">
-                <div class="play-love-blur">
-                  <div id="play6">
-                    <i class="fal fa-play btn-play" id="playbutton6"></i>
-                  </div>
+            </div>
+            <div class="card-album-tittle">
+              <h3 class="album-tittle">Ramdom access memories</h3>
+              <p class="album-artist">Daft Punk</p>
+            </div>
+          </article>
+
+          <article class="card-ventas">
+            <div class="portada-album imagen-album6">
+              <div class="play-love-blur">
+                <div id="play6">
+                  <i class="fal fa-play" id="playbutton6"></i>
+                </div>
+                <div id="like">
+                  <i class="fal fa-heart btn-heart" id="heart"></i>
                 </div>
               </div>
-              <div class="card-album-tittle">
-                <h3 class="album-tittle">Niño Cohete</h3>
-                <p class="album-artist">Niño Cohete</p>
-              </div>
-            </article>
-            <article class="card-ventas">
-              <div class="portada-album imagen-album7">
-                <div class="play-love-blur">
-                  <div id="play7">
-                    <i class="fal fa-play btn-play" id="playbutton7"></i>
-                  </div>
+            </div>
+            <div class="card-album-tittle">
+              <h3 class="album-tittle">Niño Cohete</h3>
+              <p class="album-artist">Niño Cohete</p>
+            </div>
+          </article>
+
+          <article class="card-ventas">
+            <div class="portada-album imagen-album7">
+              <div class="play-love-blur">
+                <div id="play7">
+                  <i class="fal fa-play" id="playbutton7"></i>
+                </div>
+                <div id="like">
+                  <i class="fal fa-heart btn-heart" id="heart"></i>
                 </div>
               </div>
-              <div class="card-album-tittle">
-                <h3 class="album-tittle">Worlds</h3>
-                <p class="album-artist">Porter Robinson</p>
-              </div>
-            </article>
-            <article class="card-ventas">
-              <div class="portada-album imagen-album8">
-                <div class="play-love-blur">
-                  <div id="play8">
-                    <i class="fal fa-play btn-play" id="playbutton8"></i>
-                  </div>
+            </div>
+            <div class="card-album-tittle">
+              <h3 class="album-tittle">Worlds</h3>
+              <p class="album-artist">Porter Robinson</p>
+            </div>
+          </article>
+
+          <article class="card-ventas">
+            <div class="portada-album imagen-album8">
+              <div class="play-love-blur">
+                <div id="play8">
+                  <i class="fal fa-play btn-play" id="playbutton8"></i>
+                </div>
+                <div id="like">
+                  <i class="fal fa-heart btn-heart" id="heart"></i>
                 </div>
               </div>
-              <div class="card-album-tittle">
-                <h3 class="album-tittle">Adventure</h3>
-                <p class="album-artist">Madeon</p>
-              </div>
-            </article>
-            <article class="card-ventas">
-              <div class="portada-album imagen-album9">
-                <div class="play-love-blur">
-                  <div id="play9">
-                    <i class="fal fa-play btn-play" id="playbutton9"></i>
-                  </div>
+            </div>
+            <div class="card-album-tittle">
+              <h3 class="album-tittle">Adventure</h3>
+              <p class="album-artist">Madeon</p>
+            </div>
+          </article>
+
+          <article class="card-ventas">
+            <div class="portada-album imagen-album9">
+              <div class="play-love-blur">
+                <div id="play9">
+                  <i class="fal fa-play btn-play" id="playbutton9"></i>
+                </div>
+                <div id="like">
+                  <i class="fal fa-heart btn-heart" id="heart"></i>
                 </div>
               </div>
-              <div class="card-album-tittle">
-                <h3 class="album-tittle">Talking Dreams</h3>
-                <p class="album-artist">Echosmith</p>
-              </div>
-            </article>
-            <article class="card-ventas">
-              <div class="portada-album imagen-album10">
-                <div class="play-love-blur">
-                  <div id="play10">
-                    <i class="fal fa-play btn-play" id="playbutton10"></i>
-                  </div>
+            </div>
+            <div class="card-album-tittle">
+              <h3 class="album-tittle">Talking Dreams</h3>
+              <p class="album-artist">Echosmith</p>
+            </div>
+          </article>
+
+          <article class="card-ventas">
+            <div class="portada-album imagen-album10">
+              <div class="play-love-blur">
+                <div id="play10">
+                  <i class="fal fa-play" id="playbutton10"></i>
+                </div>
+                <div id="like">
+                  <i class="fal fa-heart btn-heart" id="heart"></i>
                 </div>
               </div>
-              <div class="card-album-tittle">
-                <h3 class="album-tittle">Doolittle</h3>
-                <p class="album-artist">Pixies</p>
-              </div>
-            </article>
-          </div>
+            </div>
+            <div class="card-album-tittle">
+              <h3 class="album-tittle">Doolittle</h3>
+              <p class="album-artist">Pixies</p>
+            </div>
+          </article>
         </div>
       </section>
 
@@ -356,17 +396,20 @@
                 placeholder="Descripcion producto"
                 id="descripcion"
               />
-              <button type="button" class="formulario-enviar">Enviar</button>
+              <button type="button" class="formulario-enviar" id="enviar-btn">
+                Enviar
+              </button>
             </div>
           </div>
         </div>
       </section>
     </main>
-    <footer >
-      
+    <footer class="footer">
+      <h3 class="footer">Desarrollado por Fernando Jose Marinero Cruz</h3>
     </footer>
 
     <script src="scripts.js"></script>
     <script src="music.js"></script>
+    <script src="validaciones.js"></script>
   </body>
 </html>
