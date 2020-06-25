@@ -43,15 +43,38 @@ window.addEventListener("scroll", () => {
   }
 });
 
-document.getElementById("like").addEventListener("click", function () {
-  const icon = document.getElementById("heart");
+
+function like(h) {
+  const icon = document.getElementById(h.id);
+  console.log(icon)
   const dislike = icon.classList.toggle("fal");
   const like = icon.classList.toggle("fas");
+}
+
+
+
+/*
+
+
+ 
+
+let heart = document.querySelectorAll('#like')
+let option = document.querySelectorAll('i .btn-heart')
+
+console.log(option)
+
+
+document.getElementById("like").addEventListener("click", function () {
+  // const icon = document.getElementById("heart");
+  //const dislike = icon.classList.toggle("fal");
+  //const like = icon.classList.toggle("fas");
+  alert("click");
 });
 
 function like() {
-  const dislike = icon.classList.toggle("fal");
-  const like = icon.classList.toggle("fas");
+  alert("click");
+  // const dislike = icon.classList.toggle("fal");
+  //const like = icon.classList.toggle("fas");
 }
 
 /* 

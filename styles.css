@@ -320,29 +320,29 @@ video.video-screen {
   transition: 500ms;
 }
 
-.play-love-blur:hover #playbutton1,
-.play-love-blur:hover #playbutton2,
-.play-love-blur:hover #playbutton3,
-.play-love-blur:hover #playbutton4,
-.play-love-blur:hover #playbutton5,
-.play-love-blur:hover #playbutton6,
-.play-love-blur:hover #playbutton7,
-.play-love-blur:hover #playbutton8,
-.play-love-blur:hover #playbutton9,
-.play-love-blur:hover #playbutton10 {
+.play-love-blur:hover #play1,
+.play-love-blur:hover #play2,
+.play-love-blur:hover #play3,
+.play-love-blur:hover #play4,
+.play-love-blur:hover #play5,
+.play-love-blur:hover #play6,
+.play-love-blur:hover #play7,
+.play-love-blur:hover #play8,
+.play-love-blur:hover #play9,
+.play-love-blur:hover #play10 {
   display: block;
 }
 
-#playbutton1,
-#playbutton2,
-#playbutton3,
-#playbutton4,
-#playbutton5,
-#playbutton6,
-#playbutton7,
-#playbutton8,
-#playbutton9,
-#playbutton10 {
+#play1,
+#play2,
+#play3,
+#play4,
+#play5,
+#play6,
+#play7,
+#play8,
+#play9,
+#play10 {
   display: none;
   font-size: 40px;
   color: #f28705;
