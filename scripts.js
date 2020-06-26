@@ -43,16 +43,62 @@ window.addEventListener("scroll", () => {
   }
 });
 
-
 function like(h) {
   const icon = document.getElementById(h.id);
-  console.log(icon)
+  console.log(icon);
   const dislike = icon.classList.toggle("fal");
   const like = icon.classList.toggle("fas");
 }
 
+function volver() {
+  document.getElementById("categorias-section").style.display = "block";
+  document.getElementById("electronica-section").style.display = "none";
+  document.getElementById("latino-section").style.display = "none";
+  document.getElementById("hip-section").style.display = "none";
+  document.getElementById("rap-section").style.display = "none";
+  document.getElementById("pop-section").style.display = "none";
+  document.getElementById("nortena-section").style.display = "none";
+  document.getElementById("rock-section").style.display = "none";
+  document.getElementById("indie-section").style.display = "none";
+}
 
+document.getElementById("electronica").addEventListener("click", function () {
+  document.getElementById("categorias-section").style.display = "none";
+  document.getElementById("electronica-section").style.display = "block";
+});
 
+document.getElementById("latino").addEventListener("click", function () {
+  document.getElementById("categorias-section").style.display = "none";
+  document.getElementById("latino-section").style.display = "block";
+});
+
+document.getElementById("hiphop").addEventListener("click", function () {
+  document.getElementById("categorias-section").style.display = "none";
+  document.getElementById("hip-section").style.display = "block";
+});
+
+document.getElementById("rap").addEventListener("click", function () {
+  document.getElementById("categorias-section").style.display = "none";
+  document.getElementById("rap-section").style.display = "block";
+});
+
+document.getElementById("nortena").addEventListener("click", function () {
+  document.getElementById("categorias-section").style.display = "none";
+  document.getElementById("nortena-section").style.display = "block";
+});
+
+document.getElementById("pop").addEventListener("click", function () {
+  document.getElementById("categorias-section").style.display = "none";
+  document.getElementById("pop-section").style.display = "block";
+});
+document.getElementById("rock").addEventListener("click", function () {
+  document.getElementById("categorias-section").style.display = "none";
+  document.getElementById("rock-section").style.display = "block";
+});
+document.getElementById("indie").addEventListener("click", function () {
+  document.getElementById("categorias-section").style.display = "none";
+  document.getElementById("indie-section").style.display = "block";
+});
 /*
 
 

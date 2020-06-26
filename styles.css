@@ -41,6 +41,12 @@ header {
   padding-right: 50px;
   display: flex;
 }
+#volver {
+  position: absolute;
+  font-size: 35px;
+  color: #f28705;
+  margin-left: 5%;
+}
 .navbar ul li {
   list-style: none;
 }
@@ -222,6 +228,405 @@ video.video-screen {
   background-size: cover;
 }
 
+/*electronica*/
+.electronica1 {
+  background-image: url(https://www.laprensagrafica.com/export/sites/prensagrafica/img/2017/12/20/alan_walker.jpg_1079097183.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.electronica2 {
+  background-image: url(https://mdmelectro.com/wp-content/uploads/2017/08/DG.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.electronica3 {
+  background-image: url(https://sss.planeta.pe/imagen/apaisado/avicii-concierto-tributo-transmitido-youtube-5672a.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.electronica4 {
+  background-image: url(https://edmred.com/wp-content/uploads/2019/06/Madeon-All-My-Friends.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.electronica5 {
+  background-image: url(https://cdn.filestackcontent.com/RhO0na0WRVG3QhIqJliG/convert?cache=true&crop=0%2C163%2C1548%2C774);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.electronica6 {
+  background-image: url(https://cdn.globaldanceelectronic.com/wp-content/uploads/2020/01/freakydeakytx19a_101.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.electronica7 {
+  background-image: url(https://www.rockandpop.cl/wp-content/uploads/2020/02/nuevo-%C3%A1lbum-de-daft-punk.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.electronica8 {
+  background-image: url(https://allmusicspain.com/wp-content/uploads/2018/05/1swedish-house-mafia.gif);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+/*Rock latino*/
+
+.latino1 {
+  background-image: url(https://umbralesblog.files.wordpress.com/2017/08/cuarteto-de-nos.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.latino2 {
+  background-image: url(https://studiosol-a.akamaihd.net/uploadfile/letras/fotos/1/5/a/0/15a00da8fd09b131957f49455393bf8d.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.latino3 {
+  background-image: url(https://www.laprensagrafica.com/__export/1507851906881/sites/prensagrafica/img/2017/10/12/53fe320f76fa1_1368_772x.jpg_525981578.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.latino4 {
+  background-image: url(https://rtvc-assets-radionica3.s3.amazonaws.com/s3fs-public/styles/image_750x424/public/field/image/article/cafe-tacvba-bios.jpg?itok=tJgXVYKC);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.latino5 {
+  background-image: url(https://mariskalrock.com/wp-content/uploads/2019/12/heroes-del-silencio-senderos-traicion-promo-estudio-02.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.latino6 {
+  background-image: url(https://imagenes.20minutos.es/files/image_656_370/uploads/imagenes/2012/10/30/82696.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.latino7 {
+  background-image: url(https://www.eluniversal.com.mx/sites/default/files/2018/10/05/molotov.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.latino8 {
+  background-image: url(https://www.xlsemanal.com/wp-content/uploads/sites/3/2019/02/g-hombres-g-768x506.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+/*hip hop*/
+.hip1 {
+  background-image: url(https://steemitimages.com/DQmYg27YM9srN3m8kxpUoGKtmnNka6mbzNTyqPSfWBT4Kaa/dr-dre-best-beats.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.hip2 {
+  background-image: url(https://is4-ssl.mzstatic.com/image/thumb/Features113/v4/bc/ca/11/bcca1144-d428-32e4-c6e8-1ece1b36d01a/mzl.yhwvttjt.jpg/800x800bb.jpeg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.hip3 {
+  background-image: url(https://static2.abc.es/media/cultura/2018/07/03/drake-kHwB--620x349@abc.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.hip4 {
+  background-image: url(https://static3.abc.es/media/play/2018/04/07/50cent-U10107476060uLH--620x349@abc.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.hip5 {
+  background-image: url(https://www.tonica.la/__export/1586191370940/sites/debate/img/2020/04/06/lil_nas_x_grammy_ap_1.jpeg_423682103.jpeg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.hip6 {
+  background-image: url(https://townsquare.media/site/812/files/2019/06/nas.jpg?w=980&q=75);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.hip7 {
+  background-image: url(https://images.complex.com/complex/images/c_fill,dpr_auto,f_auto,q_90,w_1400/fl_lossy,pg_1/lh8fmadxkcg4yxd6xbad/lil-wayne-getty-2020-frazer-harrison);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.hip8 {
+  background-image: url(https://www.latercera.com/resizer/u5WmbttRyq20GKPmdLo1o2pfO7g=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/O2R334JBKVEN7M2JGAX3NYUIB4.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+/*rap*/
+.rap1 {
+  background-image: url(https://los40es00.epimg.net/los40/imagenes/2020/04/24/love40/1587725437_351796_1587725584_noticia_normal.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.rap2 {
+  background-image: url(https://e00-marca.uecdn.es/assets/multimedia/imagenes/2019/02/27/15512889244811.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.rap3 {
+  background-image: url(https://los40es00.epimg.net/los40/imagenes/2020/06/23/musica/1592901871_944972_1592902288_noticia_normal.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.rap4 {
+  background-image: url(https://cdn.themedizine.com/2020/02/Public-Enemy-Rap-Mensaje.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.rap5 {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/64/Ludacris_Midtown.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.rap6 {
+  background-image: url(https://img.europapress.es/fotoweb/fotonoticia_20200211124337_1200_v2.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.rap7 {
+  background-image: url(https://www.musicmundial.com/wp-content/uploads/2019/06/iggy_azalea_via_ig.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.rap8 {
+  background-image: url(https://www.laprensa.hn/csp/mediapool/sites/dt.common.streams.StreamServer.cls?STREAMOID=C$U2x6GPLqam4A1utjM5xs$daE2N3K4ZzOUsqbU5sYsCWDWLoSQl1eXAZNv7FnTuWCsjLu883Ygn4B49Lvm9bPe2QeMKQdVeZmXF$9l$4uCZ8QDXhaHEp3rvzXRJFdy0KqPHLoMevcTLo3h8xh70Y6N_U_CryOsw6FTOdKL_jpQ-&CONTENTTYPE=image/jpeg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+/*nortena*/
+.nortena1 {
+  background-image: url(https://media.metrolatam.com/2020/02/18/18p123collostigr-2563f74e16886b1a4878ac88920eba0a-1200x800.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.nortena2 {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e1/Grupo-bronco_foto.jcp.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.nortena3 {
+  background-image: url(https://studiosol-a.akamaihd.net/uploadfile/letras/fotos/9/d/b/1/9db114a310593e6e8e055685afe9303c.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.nortena4 {
+  background-image: url(https://www.laprensagrafica.com/__export/1506718960874/sites/prensagrafica/img/2017/09/29/kpaz_crop1506718930095.jpg_525981578.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.nortena5 {
+  background-image: url(https://iscale.iheart.com/catalog/artist/298795);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.nortena6 {
+  background-image: url(https://www.lachicuela.com/base05/2019/07/Los-Titanes-de-Durango-Rumbo-A-Maza-Single-2016-600x300.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.nortena7 {
+  background-image: url(https://assets.debate.com.mx/__export/1496420830435/sites/debate/img/2017/06/02/sin_txtulof-1.jpg_899757882.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.nortena8 {
+  background-image: url(https://www.chicagotribune.com/resizer/D-YL0Fw6favEeBqLReE_JgJmsvk=/415x275/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/CNC55YCAKJEKPMDS3XUD5OYX7Q.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+/*pop*/
+.pop1 {
+  background-image: url(https://www.minutoe.com/u/fotografias/m/2020/5/18/f500x333-12487_36290_0.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.pop2 {
+  background-image: url(https://studiosol-a.akamaihd.net/uploadfile/letras/fotos/1/a/a/e/1aaeeaf9627582a375b18fe2b5017876.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.pop3 {
+  background-image: url(https://www.tonica.la/__export/1575569896475/sites/debate/img/2019/12/05/foster_the_people.jpg_423682103.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.pop4 {
+  background-image: url(https://i.pinimg.com/originals/11/c0/55/11c055becbda124bcdf4930a6ce3f582.png);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.pop5 {
+  background-image: url(https://los40es00.epimg.net/los40/imagenes/2020/05/08/musica/1588892323_790978_1588892486_noticia_normal.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.pop6 {
+  background-image: url(https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2019/11/15/15738289378167.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.pop7 {
+  background-image: url(https://www.hola.com/imagenes/moda/tendencias/20191216156360/beyonce-vestidos-de-fiesta-terciopelo-joya-mm/0-759-377/beyonce-t.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.pop8 {
+  background-image: url(https://vanguardia.com.mx/sites/default/files/styles/paragraph_image_large_desktop_1x/public/jackson_5.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+/*rock*/
+.rock1 {
+  background-image: url(https://ep01.epimg.net/cultura/imagenes/2019/09/17/actualidad/1568721839_721500_1568722123_noticia_normal.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.rock2 {
+  background-image: url(https://img.redbull.com/images/c_crop,x_214,y_0,h_1867,w_1493/c_fill,w_860,h_1075/q_auto,f_auto/redbullcom/2018/11/05/0bc66930-9159-4765-a0bb-a7293b431fcf/queen);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.rock3 {
+  background-image: url(https://www.latercera.com/resizer/kCoktwhAZRXERFWxfR-eMpbk4T0=/900x600/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/XWC6NVDBFRFCBIWVSJOS633JAQ.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.rock4 {
+  background-image: url(https://www.rockaxis.com/img/newsList/73385_articulos.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.rock5 {
+  background-image: url(https://rockfm-cdnmed.agilecontent.com/resources/jpg/7/8/1584531119587.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.rock6 {
+  background-image: url('https://www.nacion.com/resizer/fDRTCj6GlnzQuoduK1R7LJpGlng=/600x0/center/middle/filters:quality(100)/arc-anglerfish-arc2-prod-gruponacion.s3.amazonaws.com/public/CLWBXFGM6FGXBMI3KFNL3X7VCE.jpg');
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.rock7 {
+  background-image: url(https://imagenes.20minutos.es/files/image_656_370/uploads/imagenes/2017/08/23/65858.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.rock8 {
+  background-image: url(https://www.kissfm.es/wp-content/uploads/2012/09/green-day13881.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+/*indie*/
+.indie1 {
+  background-image: url(https://cdns-images.dzcdn.net/images/artist/d5c89eaad069b8c68eee450a2318fd20/500x500.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.indie2 {
+  background-image: url(https://www.rockandpop.cl/wp-content/uploads/2017/04/Ni%C3%B1o-Cohete-768x499.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.indie3 {
+  background-image: url(https://www.esquirelat.com/wp-content/uploads/2018/04/5-cosas-que-no-sab%C3%ADas-de-Little-Jesus-la-banda-que-debes-conocer-1280x720.jpeg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.indie4 {
+  background-image: url(https://img.culturacolectiva.com/cdn-cgi/image/f=auto,w=1600,q=80,fit=contain/content_image/2020/5/8/1588959763976-arctic-monkeys-concieto.001.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.indie5 {
+  background-image: url(https://cde.peru.com//ima/0/1/4/0/5/1405324.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.indie6 {
+  background-image: url(https://arc-anglerfish-arc2-prod-elespectador.s3.amazonaws.com/public/HSXZJZURXZAIPKR62EXNYSWOVI.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.indie7 {
+  background-image: url(https://republica.com.uy/wp-content/uploads/2016/07/hijos-del-sofa.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.indie8 {
+  background-image: url(https://i.ytimg.com/vi/pzoEz-Tua8Y/maxresdefault.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+/***/
 .contenedor-card-ventas {
   display: flex;
   flex-wrap: wrap;
